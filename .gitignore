@@ -1,0 +1,7 @@
+Backend/venv/
+Backend/__pycache__/
+Backend/.env
+Backend/leaddesk.db
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env

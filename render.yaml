@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: leaddesk-mini-api
+    runtime: python
+    rootDir: Backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.4
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE_MINUTES
+        value: 120
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: FRONTEND_URLS
+        sync: false
