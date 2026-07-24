@@ -57,6 +57,7 @@ allowed_origins = [url.strip().rstrip("/") for url in frontend_urls.split(",") i
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=r"https://lead-desk-mini(?:-[a-z0-9]+)*-anilrasuri\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
