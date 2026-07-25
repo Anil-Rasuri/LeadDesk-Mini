@@ -102,19 +102,19 @@ ChangeMe123!
 
 # Screenshots
 
-## Landing Page
+## Landing Page Section1
 
 ![Landing Page](screenshots/landing-page.png)
 
 ---
 
-## Landing Page (Section)
+## Landing Page Section2
 
 ![Landing Page](screenshots/landing-page2.png)
 
 ---
 
-## Services Section
+## Landing Page Section3
 
 ![Services](screenshots/landing-page3.png)
 
@@ -156,7 +156,7 @@ ChangeMe123!
 
 ---
 
-## Search Leads
+## Bottom - Admin Login Page Button
 
 ![Admin Button](screenshots/bottom_Admin-button.png)
 
