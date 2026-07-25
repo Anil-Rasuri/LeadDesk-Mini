@@ -128,13 +128,13 @@ ChangeMe123!
 
 ## Validation Error
 
-![Validation](screenshots/lead-form error_msg.png)
+![Validation](screenshots/lead-form_error_msg.png)
 
 ---
 
 ## Successful Submission
 
-![Success](screenshots/lead-form success_msg.png)
+![Success](screenshots/lead-form_success_msg.png)
 
 ---
 
@@ -152,13 +152,13 @@ ChangeMe123!
 
 ## Search Leads
 
-![Search](screenshots/Admin-Lead Search.png)
+![Search](screenshots/Admin-Lead_Search.png)
 
 ---
 
 ## Search Leads
 
-![Admin Button](screenshots/bottom Admin-button.png)
+![Admin Button](screenshots/bottom_Admin-button.png)
 
 ---
 
